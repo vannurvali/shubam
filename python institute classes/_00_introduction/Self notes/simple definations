@@ -1,0 +1,176 @@
+
+Python:
+-------
+    Python is a programming language that lets you work quickly and integrate systems
+    more efficiently.
+
+
+#vaiables:
+----------
+Variable is a name which is used to refer memory location of value.
+
+Variables ?
+Variables are containers for storing data values.
+
+Casting ?
+If you want to specify the data type of a variable, this can be done with casting.
+
+Variable Names ?
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+
+Unpack a Collection ?
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables.
+ This is called unpacking.
+
+Global Variables ?
+Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+Global variables can be used by everyone, both inside of functions and outside.
+
+Python Collections (Arrays) ?
+---------------------------
+There are four collection data types in the Python programming language:
+------------------------------------------------------------------------
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+
+
+data types ?
+Text Type     :	str
+Numeric Types :	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type  :	dict
+Set Types     :	set, frozenset
+Boolean Type  :	bool
+Binary Types  :	bytes, bytearray, memoryview
+
+escape charecters
+
+Code	Result	Try it
+\'	Single Quote
+\\	Backslash
+\n	New Line
+\r	Carriage Return
+\t	Tab
+\b	Backspace
+\f	Form Feed
+\ooo	Octal value
+\xhh	Hex value
+
+ Arithmetic operators
+
+Relational(Comparison) Operators:
+These operators compare the values on either sides of them and decide the relation among them. They are also called Relational operators
+
+ Bitwise Operators :
+Bitwise operator works on bits and performs bit by bit operation.
+
+Membership Operators :
+Python’s membership operators test for membership in a sequence, such as
+
+Identity Operators :
+Identity operators compare the memory locations of two object
+
+
+Python Assignment Operators
+Assignment operators are used to assign values to variables:
+Operator	Example	Same As
+=	x = 5	x = 5
++=	x += 3	x = x + 3
+-=	x -= 3	x = x - 3
+*=	x *= 3	x = x * 3
+/=	x /= 3	x = x / 3
+%=	x %= 3	x = x % 3
+//=	x //= 3	x = x // 3
+**=	x **= 3	x = x ** 3
+&=	x &= 3	x = x & 3
+|=	x |= 3	x = x | 3
+^=	x ^= 3	x = x ^ 3
+>>=	x >>= 3	x = x >> 3
+<<=	x <<= 3	x = x << 3
+
+Python Comparison Operators
+Comparison operators are used to compare two values:
+
+Operator	Name	             Example
+==	Equal	                     x == y
+!=	Not equal	                 x != y
+>	Greater than	             x > y
+<	Less than	                 x < y
+>=	Greater than or equal to    x >= y
+<=	Less than or equal to	     x <= y
+
+
+
+loops
+-----
+The while Loop ?
+With the while loop we can execute a set of statements as long as a condition is true.
+
+The break Statement ?
+With the break statement we can stop the loop even if the while condition is true:
+
+The continue Statement ?
+With the continue statement we can stop the current iteration, and continue with the next:
+
+The else Statement ?
+With the else statement we can run a block of code once when the condition no longer is true:
+
+python Loops
+-----------------------
+
+The looping simplifies the complex problems into the easy ones.
+It enables us to alter the flow of the program so that instead of
+writing the same code again and again, we can repeat the same code
+for a finite number of times.
+
+
+Python for loop
+----------------
+The for loop in Python is used to iterate the statements or a part of the program several times.
+The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects.
+Iterating over a sequence is called traversal.
+
+The for loop is used in the case where we need to execute some part of the code
+until the given condition is satisfied.
+It is better to use for loop if the number of iteration is known in advance.
+
+while loop
+----------
+The while loop in Python is used to iterate over a block of code as long as
+the test expression (condition) is true.
+We generally use this loop when we don't know the number of times to iterate in advance
+
+The while loop is to be used in the scenario where we don't know the number of iterations in advance.
+The block of statements is executed in the while loop until the condition specified in the while loop is satisfied.
+It is also called a pre-tested loop.
+
+
+range in python
+---------------
+It returns a sequence of numbers starting from zero and increment by 1 by default and stops before the given number.
+ Now that we know the definition of range, let's see the syntax: range(start, stop, step)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
